@@ -1,0 +1,37 @@
+.doctors_all {
+	padding-bottom: 86px;
+
+	.serv_list {
+		flex-wrap: wrap;
+		margin-left: -15px;
+		margin-right: -15px;
+		margin-bottom: 0;
+	}
+
+	.serv__item {
+		width: 25%;
+		padding-left: 15px;
+		padding-right: 15px;
+		margin-right: 0;
+		margin-bottom: 64px;
+		box-sizing: border-box;
+	}
+
+	.serv__item:last-child {
+		margin-right: 0;
+	}
+}
+
+@media (max-width: 992px){
+	.doctors_all .serv_list {
+		flex-wrap: nowrap;
+	}
+
+	.doctors_all .serv__item {
+		margin-bottom: 0;
+	}
+
+	.doctors_all .serv__item {
+		width: 261px;
+	}
+}

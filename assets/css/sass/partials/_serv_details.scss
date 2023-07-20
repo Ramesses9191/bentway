@@ -1,0 +1,154 @@
+.serv_desc_top {
+	padding:  130px 0;
+	box-sizing: border-box;
+
+	p.proc_txt {
+		margin-bottom: 0;
+	}
+
+	ul {
+		margin: 24px 0 32px 32px;
+	}
+
+	ul li {
+		margin-bottom: 8px;
+		padding-left: 1.5em;
+	}
+
+	li:before {
+		content: ""; 
+		height: 14px;
+		background: url('../img/icons/list_icon.jpg') no-repeat center center;
+		display: inline-block;
+		margin-left: -1.5em; 
+		width: 1.5em;
+	}
+
+	ul li:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.serv_det_privil {
+	padding: 64px 0;
+	box-sizing: border-box;
+	background: #F4F4F4;
+}
+
+.serv_det_privil_list {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+.serv_det_list__item {
+	width: 25%;
+	padding-right: 15px;
+	padding-left: 15px;
+	box-sizing: border-box;
+}
+
+.serv_det_head {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin-bottom: 8px;
+}
+
+.serv_det_ttl {
+	font-family: 'Roboto', sans-serif;
+	font-size: 26px;
+	line-height: 38px;
+	color: #1E2023;
+}
+
+.serv_det_i {
+	margin-right: 15px;
+}
+
+.serv_det_i img {
+	display: inline-block;
+	vertical-align: middle;
+	max-width: 24px;
+}
+
+.more_services_block .contact_us_content {
+	max-width: 554px;
+}
+
+.more_services_block {
+	.contact_form_container {
+		max-width: 844px;
+		padding-bottom: 16px;
+	}
+
+	.serv_det_other_serv_list {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-wrap: wrap;
+		margin: 0 -32px;
+	}
+
+	.serv_det_other__item {
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-start;
+		width: 50%;
+		padding-right: 32px;
+		padding-left: 32px;
+		box-sizing: border-box;
+		margin-bottom: 48px;
+	}
+
+	.serv_det_num {
+		font-family: 'Roboto', sans-serif;
+		font-weight: 700;
+		font-size: 46px;
+		line-height: 46px;
+		color: #262626;
+		padding-right: 16px;
+	}
+
+	.serv_det_content {
+		h4 {
+			font-family: 'Roboto', sans-serif;
+			font-size: 22px;
+			line-height: 32px;
+			color: #1E2023;
+			margin-bottom: 8px;
+		}
+
+		p {
+			margin-bottom: 16px;
+		}
+	}
+}
+
+@media (max-width: 992px){
+	.serv_desc_top {
+		padding: 65px 0;
+	}
+
+	.serv_det_list__item {
+		width: 50%;
+		margin-bottom: 35px;
+	}
+
+	.more_services_block .contact_form_container {
+		padding: 32px 32px 16px;
+	}
+}
+
+@media (max-width: 600px){
+	.more_services_block .serv_det_other__item {
+		width: 100%;
+	}
+
+	.serv_det_list__item {
+		width: 100%;
+	}
+}
